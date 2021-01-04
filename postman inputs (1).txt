@@ -1,0 +1,219 @@
+1.(a)http://localhost:8086/openAccount
+
+(make adhar card unique)
+ {
+        "adharcard": "111112",
+        "adminremark": "pending",
+        "approvedbyadmin": "pending",
+        "dob": "15-08-1947",
+        "accountbalance": 6000,
+        "email": "shubham@gmail.com",
+        "fathersname": "G",
+        "firstname": "Shubham",
+        "grossannualincome": "8 Lac",
+        "lastname": "Gupta",
+        "mobileno": "9876543210",
+        "occupationtype": "Software Engineer",
+        "permaddressline1": "Mumbai",
+        "permaddressline2": "Mumbai",
+        "permcity": "Mumbai",
+        "permstate": "Maharashtra",
+        "permzipcode": "421204",
+        "presaddressline1": "Mumbai",
+        "presaddressline2": "Mumbai",
+        "prescity": "Mumbai",
+        "presstate": "Maharashtra",
+        "preszipcode": "421204",
+        "sourceofincome": "Full Time Job"
+    }
+  
+
+
+1.(b)http://localhost:8086/viewAllAccounts
+
+1.(c) http://localhost:8086/adminApproval
+
+{   "approvedByAdmin":"Verifiedggggg",
+  "adminRemark":"lacking",
+  "accountNumber":"'222'"
+  
+
+}
+
+1.(d) http://localhost:8086//viewUserDetails/334 (permaddress coming null)
+
+
+
+3. http://localhost:8086/registerAdmin
+
+
+
+{
+     "adminuserid": "9",
+     "adminname" : "abc1",
+     "adminpassword"  :  "shubham@3" 
+}
+
+
+4. http://localhost:8086/loginAdmin
+
+{   "userId":"1",
+     "password":"Nitish@04"
+  
+
+}
+
+5.  http://localhost:8086/getPayeeNameAndAccountNo/222 (not working)
+
+6. http://localhost:8086/accountstatement/222  (not working)
+
+
+{
+"fromaccno":"111",
+"toaccno":"222",
+ "fundmode":"NEFT",
+ "balance":1000,
+ "tnpass":"Akm@1"
+  
+
+}
+
+{
+    
+    "userId":"10001",
+	"password":"bbb"
+}
+
+http://localhost:8086//accountstatement/'111'
+
+
+{
+    
+    "uaccno":"111",
+    "paccno":"333",
+	"pname":"dinesh"
+
+}
+
+  http://localhost:8086/userRegister
+{
+    
+    "accNumber":"111",
+	"loginPassword":"bbb",
+    "transactionnPassword":"Akm@1"
+}
+{
+   "accNumber":"512345677",
+	"loginPassword":"Nitish@1234",
+    "transactionnPassword":"1234"
+}
+
+{
+    
+    "userId":"10001",
+	"password":"bbb"
+}
+
+{
+    
+    "userId":"10001",
+	"password":"bbb"
+}
+http://localhost:8086/accounthistory
+{
+    "frmdate":"06-Nov-20",
+    "todate":"15-Dec-20",
+    "accno":"'51234567'"
+  
+ 
+}
+
+
+
+
+shubham's screen
+
+
+
+
+admin input registration works
+
+login admin works
+
+open account woks
+
+view all account works
+
+view user details works
+
+fund transfer works 
+
+account statement works
+
+account history works
+
+payeename and accountnumber works
+
+add payee  works
+
+user register works
+
+get userid works
+
+forget transaction password
+
+forget login password works
+
+user login works
+
+
+
+
+
+angular steps
+
+
+
+ng new my-first-project
+cd my-first-project
+ng serve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
